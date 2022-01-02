@@ -1,0 +1,33 @@
+.container{
+    max-width: 300px;
+    margin: 180px auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns:200px 25px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.card{
+    width:280px;
+    height:330px;
+    background: rgb(228, 228, 228);
+    border-radius: 15px;
+}
+.card img{
+    width: 280px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px rgb(61,61,61);
+}
+.bx-heart{
+    font-size:23px;
+}
+i.heart{
+    color: crimson;
+}
+p{
+    font-size: 14px;
+}

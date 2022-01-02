@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/vue@3.0.4"></script>
+
+    <title>Ai | like button</title>
+</head>
+<body>
+    <div id="app">
+        
+        <div class="container">
+            <div class="card">
+                <img src="/img/index.jpg" alt="">
+                <div class="grid">
+                    <p>do you like him ?</p>
+                    <i @click="toggleheart" :class="{heart:heart}" class='bx bx-heart'></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>    
+
+</body>
+</html>
